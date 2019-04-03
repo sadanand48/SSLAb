@@ -41,6 +41,7 @@ void main(){
 		while(!feof(f2)){
 			if(strcmp(opcode,tempcode)==0){
 				lc+=3;
+				break;
 					}
 			fscanf(f2,"%s%s",tempcode,tempvar);
 				}
